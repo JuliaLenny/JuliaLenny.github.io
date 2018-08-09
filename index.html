@@ -7,10 +7,9 @@
 </head>
 <body>
 <div class="wrapper">
-<div class="main">
-	<div class="header">
-	<div class="polosa"></div>
-	<div class="logo"><p>Julia Lenny</p></div>
+ <div class="polosa">
+	<div class="logo"><p>Julia Lenny</p>
+	</div>
 	
 	<div class="menu">
 	<p><a href="#">W E L C O M E</a>
@@ -23,33 +22,24 @@
 	~
 	<a href="portfolio/contact.html" target="_blank" title="контакты">C O N T A C T</a></p>
     </div>
-    <div class="links">
+
+     <div class="links">
     	 <a href="https://twitter.com/89275518985" class="tw"><img src="portfolio/logo/tw.png"></a>
     	 <a href="https://vk.com/julialennny" class="fb"><img src="portfolio/logo/vk.png"></a>
     	 <a href="https://vk.com/julialennny" class="ig"><img src="portfolio/logo/ig.png"></a>
-    </div>	
-    <div class="zagolovok">
-    <h1>Something about me</h1>	
-   
+     </div>	
+ </div>
 
-    <p class="h1p">Листай ниже:з</p>
+
+<div class="main">
+
+  <div class="header">
+	
+  </div>
+
 </div>
-</div>
-
-</div>
-    <div class="block_me">
-        <div class="me">  
-	   <h2>About me</h2>
-	   <span>Личное</span>
-	<section> Не знаю как ты тут оказался, нооо </br>
-	Меня зовут Юля и мне 16 мгммм, 20 (!уже!) лет, омагад. Люблю постоянно менять цвет волос и постоянно пытаюсь найти стиль. Также увлекаюсь сериалами, крутыми мультиками, пекарством (?), рисованием, программированием(нунемногоо) и крутыми картинками/фотографиями. Собственно пытаюсь постоянно саморазвиваться и не стою на месте, между прочим! </section>
-
-       </div>
-
-
-    	
-
-    </div>  
+  
+    
 </div>
 	<style>
 		*{
@@ -75,24 +65,28 @@
 		
 		.main .header{
 			position: relative;
-			background: url("portfolio/img/background1.png");
-			background-size:100% 680px;
+			background: grey;
+			/*background: url("portfolio/img/background1.png");*/
+			background-size:100% 1000px;
 			background-repeat: no-repeat;
 			height:680px;
 			width:100%;
 			
 		}
 		 .polosa{
+
+            position: fixed;
 	    	background: #56534c;
-	    	height:40px;
+	    	height:60px;
 	    	width:100%;
 	    	opacity: 0.5;
+	    	z-index: 1;
 
 	    }
 		
-		.main .header .logo{
+		.polosa  .logo{
 			position:relative;
-			top:-55px;
+			top:-5px;
 			left:100px;
 			color:white;
 			font-family:'Scriptina';
@@ -101,15 +95,15 @@
 			
 			
 		}
-		.main .header .menu{
+		.polosa .menu{
 			position:absolute;
 			top:15px;
-			right:230px;
+			right:30%;
 			font-size:8px;
 			opacity: 0.8;
 			
 		}
-        .main .header .menu a{
+        .polosa .menu a{
 		text-decoration:none; 
 		color:white;
 		font-family:'Alegreya-Regular', arial;
@@ -121,126 +115,49 @@
 		
 
 	    }
-	    .main .header .menu p{
+	    .polosa .menu p{
 	    color:white;
 		font-family:'Alegreya-Regular', arial;
-		font-size:9px;
+		font-size:15px;
 		
 		
 		
 	    }
 
-	    .main .header .links{
+	    .polosa .links{
 	    	position:absolute;
 			top:10px;
 			right:30px;
-			font-size:5px;
+			font-size:10px;
 			
 		}
 
-	    .main .header .links a{
+	    .polosa .links a{
 	    	text-decoration:none; 
 		    color:white;
 		    
 	    }
-         .main .header .links .tw img{
-         	width: 15px;
+         .polosa .links .tw img{
+         	width: 20px;
          	position:absolute;
 			top:5px;
              right: 100px;
          }
-         .main .header .links .fb img{
-         	width: 10px;
+         .polosa .links .fb img{
+         	width: 15px;
          	position:absolute;
 			top:5px;
 			right:80px;
 
          }
-         .main .header .links .ig img{
-         	width: 13px;
+         .polosa .links .ig img{
+         	width: 20px;
          	position:absolute;
 			top:6px;
 			right:55px;
 
          }
-         .main .header  .zagolovok{
-         	text-align: center;
-         	vertical-align: middle;
-
-
-         }
-         .main .header h1{
-         	padding-top: 30px; 
-         	color: white;
-
-         	font-size:60px;
-         	line-height: 2;
-         	
-         }
-         .poloski{
-         	width:120px;
-         }
-        
-         .h1p{
-         	color: white;
-
-         	font-size:15px;
-         	line-height: 2;
-
-         }
-         .main .header input{
-         	padding:10px 30px;
-         	margin-top: 30px;
-         	color:white;
-         	background: #56534c;
-         	opacity: 0.7;
-         	border:0px;
-         	font-size: 8px;
-         	font-family: 'Times New Roman';
-         }
-
-
-
-	    .block_me{ 
-	    	position: relative;
-	    	background-color: #FFFAF0;
-	    	background-image: url("portfolio/img/background2.png");
-	    	max-width:1100px;
-	    	height:1800px;
-	    	margin:0 auto;
-	    }
-
-       
-	  
-
-	    .block_me h2{
-	     	color:  #56534c;
-	        position: absolute;
-	    	top:50px;
-	    	left:470px;   	
-	    }
-	     .block_me span{
-	     	color:  #56534c;
-	        position: absolute;
-	    	top:80px;
-	    	left:500px;   	
-	    }
-	      .block_me section{
-	    	color:  #56534c;
-	    	position: absolute;
-	    	top:95px;
-	    	left:400px;
-	    	max-width: 280px;
-	    	
-	    }
-        .sss{
-            text-align: center;
-	    	padding: 60px;
-	    	padding-left: 550px;
-	    	text-align: center;
-		    vertical-align: middle;
-	    }
-
+         
 
 	</style>
 </body>
