@@ -1,11 +1,247 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
 	<meta charset="UTF-8">
-	<title> Test_1</title>
+	<title>Julia Lenny</title>
+	<link rel="shortcut icon" href="portfolio/img/favicon.ico" type="image/x-icon">
 </head>
 <body>
-	<p>почему не работает, што я делаю не так7???? whyyy</p>
-	<svg width="20" height="40"> <rect width="20" height="20" fill="green"/></svg>
+<div class="wrapper">
+<div class="main">
+	<div class="header">
+	<div class="polosa"></div>
+	<div class="logo"><p>Julia Lenny</p></div>
+	
+	<div class="menu">
+	<p><a href="#">W E L C O M E</a>
+	~
+	<a href="portfolio/portfolio.html" target="_blank" title="портфолио">P O R T F O L I O</a>
+	~
+	<a href="portfolio/menu.html" target="_blank" title="меню">M E N U</a>
+	~
+	<a href="portfolio/foto.html" target="_blank" title="фото">F O T O</a>
+	~
+	<a href="portfolio/contact.html" target="_blank" title="контакты">C O N T A C T</a></p>
+    </div>
+    <div class="links">
+    	 <a href="https://twitter.com/89275518985" class="tw"><img src="portfolio/logo/tw.png"></a>
+    	 <a href="https://vk.com/julialennny" class="fb"><img src="portfolio/logo/vk.png"></a>
+    	 <a href="https://vk.com/julialennny" class="ig"><img src="portfolio/logo/ig.png"></a>
+    </div>	
+    <div class="zagolovok">
+    <h1>Something about me</h1>	
+   
+
+    <p class="h1p">Листай ниже:з</p>
+</div>
+</div>
+
+</div>
+    <div class="block_me">
+        <div class="me">  
+	   <h2>About me</h2>
+	   <span>Личное</span>
+	<section> Не знаю как ты тут оказался, нооо </br>
+	Меня зовут Юля и мне 16 мгммм, 20 (!уже!) лет, омагад. Люблю постоянно менять цвет волос и постоянно пытаюсь найти стиль. Также увлекаюсь сериалами, крутыми мультиками, пекарством (?), рисованием, программированием(нунемногоо) и крутыми картинками/фотографиями. Собственно пытаюсь постоянно саморазвиваться и не стою на месте, между прочим! </section>
+
+       </div>
+
+
+    	
+
+    </div>  
+</div>
+	<style>
+		*{
+			margin:0;
+			padding:0;
+		}
+		@font-face {
+    font-family: Scriptina; /* Гарнитура шрифта */
+    src: url(portfolio/font/SCRIPTIN.ttf); /* Путь к файлу со шрифтом */
+    font-family: Alegreya-Regular;
+    src: url(portfolio/font/alegreya/Alegreya-Regular.ttf);
+   }
+	    .wrapper{
+			max-width: 100%;
+			height: 100%;
+			min-height: 1000px;
+			background: #FFFAF0;
+		}
+		.main{width:1100px; 
+			margin:0 auto;
+
+		}
+		
+		.main .header{
+			position: relative;
+			background: url("portfolio/img/background1.png");
+			background-size:100% 680px;
+			background-repeat: no-repeat;
+			height:680px;
+			width:100%;
+			
+		}
+		.main .header .polosa{
+	    	background: #56534c;
+	    	height:40px;
+	    	width:100%;
+	    	opacity: 0.5;
+
+	    }
+		
+		.main .header .logo{
+			position:relative;
+			top:-55px;
+			left:100px;
+			color:white;
+			font-family:'Scriptina';
+			font-size:20px;
+			opacity: 0.8;
+			
+			
+		}
+		.main .header .menu{
+			position:absolute;
+			top:15px;
+			right:230px;
+			font-size:8px;
+			opacity: 0.8;
+			
+		}
+        .main .header .menu a{
+		text-decoration:none; 
+		color:white;
+		font-family:'Alegreya-Regular', arial;
+		padding-left: 20px;
+		padding-right: 20px;
+        text-align: center;
+		vertical-align: middle;
+		
+		
+
+	    }
+	    .main .header .menu p{
+	    color:white;
+		font-family:'Alegreya-Regular', arial;
+		font-size:9px;
+		
+		
+		
+	    }
+
+	    .main .header .links{
+	    	position:absolute;
+			top:10px;
+			right:30px;
+			font-size:5px;
+			
+		}
+
+	    .main .header .links a{
+	    	text-decoration:none; 
+		    color:white;
+		    
+	    }
+         .main .header .links .tw img{
+         	width: 15px;
+         	position:absolute;
+			top:5px;
+             right: 100px;
+         }
+         .main .header .links .fb img{
+         	width: 10px;
+         	position:absolute;
+			top:5px;
+			right:80px;
+
+         }
+         .main .header .links .ig img{
+         	width: 13px;
+         	position:absolute;
+			top:6px;
+			right:55px;
+
+         }
+         .main .header  .zagolovok{
+         	text-align: center;
+         	vertical-align: middle;
+
+
+         }
+         .main .header h1{
+         	padding-top: 30px; 
+         	color: white;
+
+         	font-size:60px;
+         	line-height: 2;
+         	
+         }
+         .poloski{
+         	width:120px;
+         }
+        
+         .h1p{
+         	color: white;
+
+         	font-size:15px;
+         	line-height: 2;
+
+         }
+         .main .header input{
+         	padding:10px 30px;
+         	margin-top: 30px;
+         	color:white;
+         	background: #56534c;
+         	opacity: 0.7;
+         	border:0px;
+         	font-size: 8px;
+         	font-family: 'Times New Roman';
+         }
+
+
+
+	    .block_me{ 
+	    	position: relative;
+	    	background-color: #FFFAF0;
+	    	background-image: url("portfolio/img/background2.png");
+	    	max-width:1100px;
+	    	height:1800px;
+	    	margin:0 auto;
+	    }
+
+       
+	  
+
+	    .block_me h2{
+	     	color:  #56534c;
+	        position: absolute;
+	    	top:50px;
+	    	left:470px;   	
+	    }
+	     .block_me span{
+	     	color:  #56534c;
+	        position: absolute;
+	    	top:80px;
+	    	left:500px;   	
+	    }
+	      .block_me section{
+	    	color:  #56534c;
+	    	position: absolute;
+	    	top:95px;
+	    	left:400px;
+	    	max-width: 280px;
+	    	
+	    }
+        .sss{
+            text-align: center;
+	    	padding: 60px;
+	    	padding-left: 550px;
+	    	text-align: center;
+		    vertical-align: middle;
+	    }
+
+
+	</style>
 </body>
 </html>
