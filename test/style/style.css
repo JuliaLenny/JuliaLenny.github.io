@@ -22,12 +22,18 @@
 			background-repeat: no-repeat;
 
 		}
-	    .logo{
-			position:absolute;
-			top:-155px;
-			left:215px;
+
+		.logo p{
+			font-size: 30px;
 
 		}
+	    .logo{
+			position:absolute;
+			top:-160px;
+			left:205px;
+
+		}
+		
 		.menu{
 			position:absolute;
 			top:40px;
