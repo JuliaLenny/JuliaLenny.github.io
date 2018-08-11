@@ -1,0 +1,111 @@
+       *{
+			margin:0;
+			padding:0;
+		}
+		@font-face {
+    font-family: Gotham bold; /* Гарнитура шрифта */
+    src: url(Gotham Cyrillic/GothaProBol.otf); /* Путь к файлу со шрифтом */
+    font-family: Alegreya-Regular;
+    src: url(portfolio/font/alegreya/Alegreya-Regular.ttf);
+   }
+
+
+        .wrapper{
+			height: 100%;
+			min-height: 1000px;
+			background: grey;
+		}
+		.header{
+			height: 890px;
+			background: url("img/header.png");
+		    background-size:100% 890px;
+			background-repeat: no-repeat;
+
+		}
+	    .logo{
+			position:absolute;
+			top:20px;
+			left:200px;
+
+		}
+		.menu{
+			position:absolute;
+			top:40px;
+			left:32%;
+			
+		}
+
+
+		.menu a{
+			text-decoration:none; 
+		    color:white;
+		  /*  font-family:'Alegreya-Regular', arial;*/
+		    padding-left: 20px;
+		    padding-right: 20px;
+            text-align: center;
+		    vertical-align: middle;
+		
+		}
+              /*нужно сделать спрайтами кнопки соц.сетей*/
+		 .header .links a{
+	    	text-decoration:none; 
+		    color:white;
+		    
+	    }
+
+	    .header .links .vk img{
+         	width: 15px;
+         	position:absolute;
+			top:2px;
+             right: 120px;
+         }
+        .header .links .tw img{
+         	width: 15px;
+         	position:absolute;
+			top:5px;
+             right: 100px;
+         }
+         .header .links .fb img{
+         	width: 10px;
+         	position:absolute;
+			top:5px;
+			right:80px;
+
+         }
+          .header .links .ig img{
+         	width: 13px;
+         	position:absolute;
+			top:6px;
+			right:55px;
+
+         }
+         /*вот здесь эти кнопки кончаются упаси их господь*/
+
+
+		.line{
+			position:absolute;
+			top:95px;
+		}
+		h1{ color:white;
+			font-family:'Gotham bold';
+			padding-top: 300px; 
+			font-size:80px;
+         	text-align: center;
+         	
+
+		}
+		h3{  text-align: center;
+			color:skyblue;
+			font-size: 30px;
+
+		}
+
+		p{   padding-top: 200px; 
+			 text-align: center;
+			color:white;
+			font-size: 15px;
+
+
+		}
+
+	
