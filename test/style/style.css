@@ -24,8 +24,8 @@
 		}
 	    .logo{
 			position:absolute;
-			top:20px;
-			left:200px;
+			top:-155px;
+			left:215px;
 
 		}
 		.menu{
@@ -56,27 +56,27 @@
 	    .header .links .vk img{
          	width: 15px;
          	position:absolute;
-			top:2px;
-             right: 120px;
+			top:37px;
+             right: 260px;
          }
         .header .links .tw img{
-         	width: 15px;
+         	width: 17px;
          	position:absolute;
-			top:5px;
-             right: 100px;
+			top:40px;
+             right: 230px;
          }
          .header .links .fb img{
-         	width: 10px;
+         	width: 15px;
          	position:absolute;
-			top:5px;
-			right:80px;
+			top:37px;
+			right:200px;
 
          }
           .header .links .ig img{
-         	width: 13px;
+         	width: 15px;
          	position:absolute;
-			top:6px;
-			right:55px;
+			top:41px;
+			right:170px;
 
          }
          /*вот здесь эти кнопки кончаются упаси их господь*/
