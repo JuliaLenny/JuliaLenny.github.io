@@ -18,7 +18,7 @@
 		.header{
 			height: 890px;
 			background: url("img/header.png");
-		    background-size:100% 800px;
+		    background-size:100% 740px;
 			background-repeat: no-repeat;
 
 		}
@@ -94,14 +94,14 @@
 		}
 		h1{ color:white;
 			font-family:'Gotham bold';
-			padding-top: 300px; 
-			font-size:80px;
+			padding-top: 150px; 
+			font-size:100px;
          	text-align: center;
          	
 
 		}
 		h3{  text-align: center;
-			color:skyblue;
+			color:#11749e;
 			font-family:'Gotham medium';
 			font-size: 30px;
 
